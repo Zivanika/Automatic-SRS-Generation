@@ -1,17 +1,17 @@
-// // import { openai } from "@ai-sdk/openai";
-// import { streamText, OpenAIStream, StreamingTextResponse } from "ai";
-// import { NextRequest, NextResponse } from "next/server";
-// import OpenAI from "openai";
+// import { openai } from "@ai-sdk/openai";
+import { streamText, OpenAIStream, StreamingTextResponse } from "ai";
+import { NextRequest, NextResponse } from "next/server";
+import OpenAI from "openai";
 
-// // Allow streaming responses up to 30 seconds
-// // export const maxDuration = 50;
-// export const runtime = "edge";
+// Allow streaming responses up to 30 seconds
+// export const maxDuration = 50;
+export const runtime = "edge";
 
 // const openai = new OpenAI({
 //   apiKey: process.env.OPENAI_API_KEY,
 // });
 
-// export async function POST(req: Request) {
+export async function POST(req: Request) {
 //   try {
 //     // const prompt = "";
 //     const { prompt } = await req.json();
@@ -54,4 +54,4 @@
 //       );
 //     }
 //   }
-// }
+ }
