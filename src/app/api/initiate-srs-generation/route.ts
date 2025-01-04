@@ -9,7 +9,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 // const BaseURL = "http://localhost:5000"
-const BaseURL = "https://blueprint-ai-backend.onrender.com"
+const BaseURL = "https://automatic-srs-generator-backend-1.onrender.com"
 
 export async function POST(req: NextRequest) {
   try {

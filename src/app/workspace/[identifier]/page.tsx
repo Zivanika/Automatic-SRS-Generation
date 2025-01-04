@@ -17,7 +17,7 @@ import Praise from "./Praise";
 import SRSModel from "@/models/SRS";
 
 // const baseURL = "http://localhost:5000"
-const baseURL = "https://blueprint-ai-backend.onrender.com";
+const baseURL = "https://automatic-srs-generator-backend-1.onrender.com";
 
 function Page() {
   const { toast } = useToast();

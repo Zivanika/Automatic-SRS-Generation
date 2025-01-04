@@ -45,7 +45,7 @@ interface DataItem {
 }
 
 // const BaseURL = "http://localhost:5000";
-const BaseURL = "https://blueprint-ai-backend.onrender.com";
+const BaseURL = "https://automatic-srs-generator-backend-1.onrender.com";
 
 const Page = () => {
   const [data, setData] = useState<DataItem[]>([]);

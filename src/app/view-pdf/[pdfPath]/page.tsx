@@ -19,7 +19,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/b
 //   standardFontDataUrl: "/standard_fonts/",
 // };
 
-const baseURL = "https://blueprint-ai-backend.onrender.com";
+const baseURL = "https://automatic-srs-generator-backend-1.onrender.com";
 
 const ViewPdf: React.FC = () => {
   const { toast } = useToast();

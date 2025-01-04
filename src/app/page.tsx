@@ -14,7 +14,7 @@ import lockImage from "./assets/locker.png";
 import axios from "axios";
 
 // const BaseURL = "http://localhost:5000";
-const BaseURL = "https://blueprint-ai-backend.onrender.com";
+const BaseURL = "https://automatic-srs-generator-backend-1.onrender.com";
 
 export default function Home() {
   const { data: session, status } = useSession();
