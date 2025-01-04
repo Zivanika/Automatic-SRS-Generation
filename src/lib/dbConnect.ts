@@ -14,7 +14,7 @@ export default async function dbConnect(): Promise<void> {
   }
 
   try {
-    //! connected using mongoURI string or an empty string, {} is options field
+    //! connected using mongoURI string or an empty string, {} is options fields
     const db = await mongoose.connect("mongodb+srv://harshitabarnwal:Harshita@cluster1.sludnrg.mongodb.net/SRS" , {});
     connection.isConnected = db.connections[0].readyState;
     console.log("[+] DB Connected Successfully");
