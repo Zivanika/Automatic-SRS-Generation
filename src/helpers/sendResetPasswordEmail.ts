@@ -14,8 +14,8 @@ export async function sendResetPasswordEmail(
       port: 465,
       secure: true,
       auth: {
-        user: "harshitabarnwal943@gmail.com",
-        pass: "bvfibyrmbwhuqlut",
+        user: "harshitabarnwal2003@gmail.com",
+        pass: "iyxdskzeajpkbkjs",
       },
     });
     const emailHtml = render(ResetPasswordEmail({ username, resetPasswordLink}))
