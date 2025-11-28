@@ -9,11 +9,8 @@ node_modules
 #secrets
 .env
 
+OAUTH_FIX_SUMMARY.md
 
-venv
-docs
-pdfs
-storage
 # testing
 /coverage
 
