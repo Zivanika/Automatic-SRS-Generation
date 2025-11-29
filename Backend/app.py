@@ -32,7 +32,7 @@ app = FastAPI(title="SRS Generation API")
 # CORS Configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://blueprint-ai-platinum.vercel.app"], 
+    allow_origins=["http://localhost:3000", "https://automatic-srs-generation.vercel.app"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
