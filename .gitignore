@@ -9,6 +9,7 @@ node_modules
 #secrets
 .env
 
+INTERVIEW_CHEATSHEET (3).md
 
 venv
 docs

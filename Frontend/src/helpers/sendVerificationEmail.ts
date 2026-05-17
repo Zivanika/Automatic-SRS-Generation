@@ -4,6 +4,7 @@ import { APIResponse } from "@/types/APIResponse";
 import nodemailer from "nodemailer"
 import VerificationEmail from "../../emails/VerificationEmail";
 
+// Sending verification email to the user
 export async function sendVerificationEmail(
   email: string,
   username: string,
