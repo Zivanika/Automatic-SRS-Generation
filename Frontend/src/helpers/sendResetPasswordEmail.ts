@@ -14,8 +14,8 @@ export async function sendResetPasswordEmail(
       port: 465,
       secure: true,
       auth: {
-        user: "contact.akshat.jaiswal@gmail.com",
-        pass: "vyhhnbphhwgesbbg",
+        user: "harshitabarnwal2003@gmail.com",
+        pass: process.env.GMAIL_APP_PASSWORD as string,
       },
     });
     const emailHtml = render(ResetPasswordEmail({ username, resetPasswordLink}))

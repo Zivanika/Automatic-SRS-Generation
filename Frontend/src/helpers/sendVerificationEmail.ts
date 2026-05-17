@@ -15,8 +15,8 @@ export async function sendVerificationEmail(
       port: 465,
       secure: true,
       auth: {
-        user: "contact.akshat.jaiswal@gmail.com",
-        pass: "vyhhnbphhwgesbbg", //got the password from google account itself inside App Passwords
+        user: "harshitabarnwal2003@gmail.com",
+        pass: process.env.GMAIL_APP_PASSWORD as string,
       },
     });
     const emailHtml = render(VerificationEmail({ username, email, otp: verifyCode }))
